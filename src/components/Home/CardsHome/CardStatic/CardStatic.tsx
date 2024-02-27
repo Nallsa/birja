@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function CardStatic() {
   return (
     <div className='flex flex-col w-[645px] h-[480px] bg-white border p-[50px] rounded-lg ml-[30px]'>
-      <div className='flex flex-row mb-[60px]'>
+      <div className='flex justify-between mb-[60px]'>
         <h1 className='font-scode font-medium text-[28px] leading-[35.2px] mr-20'>
           Статистика заказов
         </h1>

@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang='en'>
       <body>
         <Header />
-        <main className='flex flex-row justify-center  bg-[#F3F3F3]  pt-20'>
+        <main className='flex flex-row justify-center  bg-[#F3F3F3]  py-20'>
           {children}
         </main>
         <Footer />

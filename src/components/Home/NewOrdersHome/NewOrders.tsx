@@ -4,7 +4,7 @@ import OrderItem from './OrderItem';
 
 export default function NewOrders() {
   return (
-    <div>
+    <div className='mb-[80px]'>
       <div className='flex justify-between pb-12'>
         <div className='flex justify-center items-center '>
           <h1 className=' font-scode font-semibold text-[48px] leading-[60px] '>
@@ -19,7 +19,9 @@ export default function NewOrders() {
           <ArrowOrder />
         </div>
       </div>
-      <div className='bg-white'>
+      <div className='bg-white  '>
+        <OrderItem />
+        <OrderItem />
         <OrderItem />
       </div>{' '}
     </div>

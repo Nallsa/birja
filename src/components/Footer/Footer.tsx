@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className='bg-[#D9D9D9] py-8'>
-      <div className='max-w-6xl mx-auto px-4'>
+      <div className='max-w-[1320px] mx-auto '>
         <div className='flex justify-between'>
           {/* Левая секция: Логотип и социальные иконки */}
           <div>

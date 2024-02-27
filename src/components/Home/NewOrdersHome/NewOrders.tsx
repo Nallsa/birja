@@ -1,11 +1,11 @@
 import React from 'react';
-import Orders from './Orders/Orders';
 import ArrowOrder from '../../../svg/ArrowOrder';
+import OrderItem from './OrderItem';
 
 export default function NewOrders() {
   return (
     <div>
-      <div className='flex justify-between'>
+      <div className='flex justify-between pb-12'>
         <div className='flex justify-center items-center '>
           <h1 className=' font-scode font-semibold text-[48px] leading-[60px] '>
             Новые заказы на бирже
@@ -19,7 +19,9 @@ export default function NewOrders() {
           <ArrowOrder />
         </div>
       </div>
-      <Orders />
+      <div className='bg-white'>
+        <OrderItem />
+      </div>{' '}
     </div>
   );
 }

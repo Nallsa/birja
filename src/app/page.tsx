@@ -4,10 +4,10 @@ import NewsHome from '@/components/Home/NewsHome/NewsHome';
 
 export default function Home() {
   return (
-    <main className='max-w-[1320px]'>
+    <div className='max-w-[1320px]'>
       <Cards />
       <NewOrders />
       <NewsHome />
-    </main>
+    </div>
   );
 }

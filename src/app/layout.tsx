@@ -20,8 +20,8 @@ export default function RootLayout({
     <html lang='en'>
       <body>
         <Header />
-        <main className='flex flex-row justify-center  bg-[#F3F3F3]  py-20'>
-          {children}
+        <main className='flex flex-row justify-center bg-[#F3F3F3]  py-20'>
+          <div className='max-w-[1320px]'>{children}</div>
         </main>
         <Footer />
       </body>
